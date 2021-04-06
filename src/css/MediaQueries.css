@@ -1,0 +1,200 @@
+/*
+*********************************************************************
+* Ceevee Media Queries (heavily modified to fit my needs)
+* URL: styleshout.com
+* Imported: 04-04-2021
+*********************************************************************
+*/
+
+/*
+* Screenwidth < 1024px
+*/
+
+@media only screen and (max-width: 1024px) {
+
+   /*
+   * Header Styles
+   */
+   header .homeText h1 {
+      font: 80px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;
+      margin: 0 auto 12px auto;
+   }
+}
+
+/*
+* Screenwidth < 900px
+*/
+
+@media only screen and (max-width: 900px) {
+
+   /*
+   * Navigation
+   */
+   #nav-wrapper {
+      font: 11px 'opensans-bold', sans-serif;
+      letter-spacing: 1.5px;
+   }
+
+   /*
+   * Header Styles
+   */
+   header .homeBody {
+      padding-bottom: 12px;
+   }
+   header .homeText h1 {
+      font: 78px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;
+   }
+   header .homeText h3 {
+      font: 17px/1.9em 'librebaskerville-regular', serif;
+      width: 80%;
+   }
+   header .homeText hr {
+      width: 65%;
+      margin: 12px auto;
+   }
+}
+
+/*
+* Mobile Wide (Landscape) / Smaller Tables
+*/
+
+@media only screen and (max-width: 767px) {
+
+   /*
+   * (Mobile) Navigation
+   */
+   #nav-wrapper {
+      font: 12px 'opensans-bold', sans-serif;
+      background: transparent !important;
+      letter-spacing: 1.5px;
+      width: auto;
+      position: fixed;
+      top: 0;
+      right: 0;
+   }
+
+   #nav-wrapper .menuButton {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 48px;
+		height: 48px;
+
+      position: relative;
+      border: none;
+      float: right;
+      right: 15px;
+
+      background-color: #CC5200;
+      cursor: pointer;
+   }
+
+   #nav-wrapper ul#nav {
+      height: auto;
+		display: none;
+      clear: both;
+      width: auto;
+      float: right;
+
+      position: relative;
+      top: 12px;
+      right: 0;
+   }
+
+   ul#nav li {
+      display: block;
+      height: auto;
+      margin: 0 auto;
+      padding: 0 4%;
+      text-align: left;
+      border-bottom: 1px solid #2D2E34;
+      border-bottom-style: dotted;
+   }
+
+   /*
+   * Header Styles
+   */
+   header .homeBody {
+      padding-bottom: 12px;
+      padding-top: 6px;
+   }
+   header .homeText h1 {
+      font: 68px/1.1em 'opensans-bold', sans-serif;
+   }
+   header .homeText h3 {
+      font: 16px/1.9em 'librebaskerville-regular', serif;
+      width: 85%;
+   }
+   header .homeText hr {
+      width: 80%;
+      margin: 18px auto;
+   }
+
+   /*
+   * Header Social Links
+   */
+   header .homeSocial {
+      margin: 18px 0 24px 0;
+      font-size: 24px;
+      line-height: 36px;
+   }
+   header .homeSocial li {
+      margin: 0 10px;
+   }
+
+   header .scrolldown {
+      display: none;
+   }
+}
+
+/*
+* Mobile
+*/
+
+@media only screen and (max-width: 480px) {
+
+   /*
+   * (Mobile) Navigation
+   */
+   #nav-wrapper ul#nav {
+      width: auto;
+      float: none;
+   }
+
+   /*
+   * Header Styles
+   */
+   header .homeBody {
+      padding-top: 24px;
+   }
+   header .homeText h1 {
+      font: 40px/1.1em 'opensans-bold', sans-serif;
+      margin: 0 auto 24px auto;
+   }
+   header .homeText h3 {
+      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      width: 90%;
+   }
+
+   /*
+   * Header Social Links
+   */
+   header .homeSocial {
+      font-size: 20px;
+   }
+   header .homeSocial li {
+      margin: 0 6px;
+   }
+}
+
+
+
+
+
+
+
+
+

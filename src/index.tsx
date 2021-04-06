@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
+import "./css/Default.css";
+import "./css/Layout.css";
+import "./css/MediaQueries.css";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(

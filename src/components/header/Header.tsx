@@ -1,66 +1,64 @@
-import React from "react";
+import $ from "jquery";
+import React, { useEffect } from "react";
+import { Link } from "react-scroll";
 
 const Header: React.FC = () => {
+  /* Make sure that header height is equal to the browser height. */
+  useEffect(() => {
+    const height = $(window).height() || 0;
+
+    $("header").css({
+      height,
+    });
+
+    $(window).on("resize", () => {
+      const resizeHeight = $(window).height() || 0;
+      const resizeWidth = $(window).width() || 0;
+
+      $("header").css({
+        height: resizeHeight,
+      });
+      $("body").css({
+        width: resizeWidth,
+      });
+    });
+  }, []);
+
   return (
     <header id="home">
-      <nav id="nav-wrap">
-        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-          Show navigation
-        </a>
-        <a className="mobile-btn" href="#home" title="Hide navigation">
-          Hide navigation
-        </a>
-
-        <ul id="nav" className="nav">
-          <li className="current">
-            <a className="smoothscroll" href="#home">
-              Home
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#about">
-              About
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#resume">
-              Resume
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#portfolio">
-              Works
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#testimonials">
-              Testimonials
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#contact">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <div className="row banner">
-        <div className="banner-text">
-          <h1 className="responsive-headline">I am Calin.</h1>
+      <div className="row homeBody">
+        <div className="homeText">
+          <h1 className="homeTitle">Hi! I&apos;m Calin.</h1>
           <h3>
-            I am a poop based <span>poopsland</span>. Poop.
+            I am a Computing MEng student based in <span>London</span>. My current interests include
+            machine learning, particularly computer vision (medical imaging).
           </h3>
           <hr />
-          <ul className="social">networks</ul>
+          <ul className="homeSocial">
+            <li>
+              <a href="https://www.facebook.com/calinbiberea">
+                <i className="fa fa-facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/calinbiberea">
+                <i className="fa fa-github" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/calinbiberea/">
+                <i className="fa fa-linkedin" />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
 
-      <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
+      <div className="scrolldown">
+        <Link id="toAbout" to="about" spy smooth duration={500}>
           <i className="icon-down-circle" />
-        </a>
-      </p>
+        </Link>
+      </div>
     </header>
   );
 };
