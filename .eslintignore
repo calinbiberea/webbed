@@ -1,2 +1,4 @@
-*.css
+# Ignore non .tsx items
+css/
+images/
 *.svg
