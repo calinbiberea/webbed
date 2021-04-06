@@ -28,8 +28,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "lint": "npx eslint src",
-    "type-check": "npx tsc --noEmit"
+    "lint": "eslint src",
+    "type-check": "tsc --noEmit"
   },
   "browserslist": {
     "production": [
