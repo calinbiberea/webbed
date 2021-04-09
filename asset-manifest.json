@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/webbed/static/css/main.8de26c91.chunk.css",
-    "main.js": "/webbed/static/js/main.6503feb5.chunk.js",
-    "main.js.map": "/webbed/static/js/main.6503feb5.chunk.js.map",
-    "runtime-main.js": "/webbed/static/js/runtime-main.60956a30.js",
-    "runtime-main.js.map": "/webbed/static/js/runtime-main.60956a30.js.map",
-    "static/js/2.d1687743.chunk.js": "/webbed/static/js/2.d1687743.chunk.js",
-    "static/js/2.d1687743.chunk.js.map": "/webbed/static/js/2.d1687743.chunk.js.map",
-    "static/js/3.6607bbc5.chunk.js": "/webbed/static/js/3.6607bbc5.chunk.js",
-    "static/js/3.6607bbc5.chunk.js.map": "/webbed/static/js/3.6607bbc5.chunk.js.map",
+    "main.css": "/webbed/static/css/main.d8157cdb.chunk.css",
+    "main.js": "/webbed/static/js/main.53f640a6.chunk.js",
+    "main.js.map": "/webbed/static/js/main.53f640a6.chunk.js.map",
+    "runtime-main.js": "/webbed/static/js/runtime-main.b4390b51.js",
+    "runtime-main.js.map": "/webbed/static/js/runtime-main.b4390b51.js.map",
+    "static/js/2.c7cfc160.chunk.js": "/webbed/static/js/2.c7cfc160.chunk.js",
+    "static/js/2.c7cfc160.chunk.js.map": "/webbed/static/js/2.c7cfc160.chunk.js.map",
+    "static/js/3.4ffe0fb5.chunk.js": "/webbed/static/js/3.4ffe0fb5.chunk.js",
+    "static/js/3.4ffe0fb5.chunk.js.map": "/webbed/static/js/3.4ffe0fb5.chunk.js.map",
     "index.html": "/webbed/index.html",
-    "static/css/main.8de26c91.chunk.css.map": "/webbed/static/css/main.8de26c91.chunk.css.map",
-    "static/js/2.d1687743.chunk.js.LICENSE.txt": "/webbed/static/js/2.d1687743.chunk.js.LICENSE.txt",
+    "static/css/main.d8157cdb.chunk.css.map": "/webbed/static/css/main.d8157cdb.chunk.css.map",
+    "static/js/2.c7cfc160.chunk.js.LICENSE.txt": "/webbed/static/js/2.c7cfc160.chunk.js.LICENSE.txt",
     "static/media/Layout.css": "/webbed/static/media/Home.ffb0bb65.jpg",
-    "static/media/Default.css": "/webbed/static/media/librebaskerville-regular-webfont.c5950393.ttf"
+    "static/media/Default.css": "/webbed/static/media/librebaskerville-regular-webfont.c5950393.ttf",
+    "static/media/ProfilePicture.07ae82cb.jpg": "/webbed/static/media/ProfilePicture.07ae82cb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.60956a30.js",
-    "static/js/2.d1687743.chunk.js",
-    "static/css/main.8de26c91.chunk.css",
-    "static/js/main.6503feb5.chunk.js"
+    "static/js/runtime-main.b4390b51.js",
+    "static/js/2.c7cfc160.chunk.js",
+    "static/css/main.d8157cdb.chunk.css",
+    "static/js/main.53f640a6.chunk.js"
   ]
 }
