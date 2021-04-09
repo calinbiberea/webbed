@@ -175,6 +175,36 @@
       text-align: center;
       padding: 15px 20px;
    }
+
+   /*
+   * Footer Styles
+   */
+   footer .copyright li {
+      margin-right: 12px;
+   }
+
+   /*
+   * Footer Social Links
+   */
+   footer .footerSocial {
+      font-size: 22px;
+   }
+   footer .footerSocial li {
+      margin-left: 18px;
+   }
+
+   /*
+   * Scroll Up Button
+   */
+   footer .scrollup {
+      margin-left: -22px;
+   }
+   footer .scrollup a {
+   	width: 54px;
+   	height: 54px;
+      font-size: 18px;
+      line-height: 54px;
+   }
 }
 
 /*
@@ -214,6 +244,19 @@
    }
    header .homeSocial li {
       margin: 0 6px;
+   }
+
+   /*
+   * Footer Social Links
+   */
+   footer .footerSocial {
+      font-size: 20px;
+   }
+   footer .footerSocial li {
+      margin-left: 14px;
+   }
+   footer .footerSocial li:first-child {
+      margin-left: 20px;
    }
 }
 

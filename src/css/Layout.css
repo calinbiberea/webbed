@@ -403,3 +403,85 @@ header .scrolldown i:hover {
 /* g. Footer Styles
 *********************************************************************
 */
+
+footer {
+   padding-top: 48px;
+   background-color: #303030;
+   font-size: 14px;
+   text-align: center;
+   position: relative;
+}
+
+footer a, footer a:visited {
+   color: #7A7A7A;
+}
+footer a:hover, footer a:focus {
+   color: #efefefef;
+}
+
+/*
+* Copyright
+*/
+footer .copyright {
+   margin: 0;
+   padding: 0;
+ }
+footer .copyright li {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   line-height: 24px;
+}
+
+/*
+* Footer Social Links
+*/
+footer .footerSocial {
+   margin: 18px 0 30px 0;
+   padding: 0;
+   font-size: 30px;
+}
+footer .footerSocial li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+    color: #F06000;
+}
+footer .footerSocial li:first-child {
+   margin-left: 15px;
+}
+
+/*
+* Scroll Up Button
+*/
+footer .scrollup {
+	position: absolute;
+	top: -24px;
+   left: 50%;
+   margin-left: -30px;
+}
+footer .scrollup a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-color: #525252;
+
+	-webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+
+   color: #efefefef;
+   font-size: 21px;
+   line-height: 60px;
+ 	border-radius: 100%;
+
+    cursor: pointer;
+}
+footer .scrollup a:hover {
+   background-color: #F06000;
+}
