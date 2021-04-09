@@ -1,6 +1,6 @@
 import $ from "jquery";
 import React, { useEffect, useState } from "react";
-import { useMediaPredicate } from "react-media-hook";
+import { useMediaQuery } from "react-responsive";
 import { Link } from "react-scroll";
 
 const NavigationMenu: React.FC = () => {
@@ -9,7 +9,9 @@ const NavigationMenu: React.FC = () => {
   const menuDisplay = menuOpen ? "Show Navigation" : "Hide Navigation";
 
   /* Parameter to check if the menu on big screens has to be restored. */
-  const menuDisplayCheck = useMediaPredicate("(max-width: 767px)");
+  const menuDisplayCheck = useMediaQuery({
+    query: "(max-width: 767px)",
+  });
 
   /* Colour the navigation bar and fade it out around header scroll. */
   useEffect(() => {
