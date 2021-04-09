@@ -217,9 +217,31 @@
    }
 }
 
+/*
+* Portfolio (For Bigger Screens)
+*/
 
+@media (min-width: 768px) {
 
-
+	.portfolioItem {
+		width: 33.33%;
+		padding-right: 1em;
+	}
+	.portfolioItem:nth-child(3n) {
+		padding-right: 0;
+	}
+	.portfolioImage img {
+		opacity: 0.8;
+	}
+	.portfolioItemBody:hover {
+      background-color: #353535;
+		box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
+	}
+	.portfolioItemBody:hover .portfolioImage img {
+		opacity: 1;
+		transition: opacity 0.5s cubic-bezier(.43,.41,.22,.91);
+	}
+}
 
 
 

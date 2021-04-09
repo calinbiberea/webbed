@@ -311,6 +311,87 @@ header .scrolldown i:hover {
 *********************************************************************
 */
 
+#portfolio {
+   background: #efefefef;
+   padding-top: 90px;
+   padding-bottom: 60px;
+}
+#portfolio h1 {
+   font: 18px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   color: #7A7A7A;
+}
+#portfolio h3 {
+   color: #efefefef;
+}
+
+/*
+* Portfolio Content
+*/
+#portfolioBody {
+   display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 100%;
+
+   padding: 60px 15px 0;
+}
+.portfolioItem {
+   display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 100%;
+	padding-right: 0;
+}
+.portfolioItemBody {
+   display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	background-color: #2B2B2B;
+   border-radius: 5px;
+   margin-bottom: 1em;
+   margin-right: 0;
+   padding: 1em;
+}
+.portfolioImage img {
+   opacity: 1;
+}
+
+.portfolioURL {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+.portfolioURL .button {
+   margin-top: 6px;
+   background: #444;
+}
+.portfolioURL .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+.portfolioURL .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
 /*
 *********************************************************************
 * f. Contact Section Styles

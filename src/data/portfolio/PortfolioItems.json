@@ -1,0 +1,11 @@
+{
+    "portfolioItems": [
+        {
+            "id": "housePricePrediction",
+            "image": "https://drive.google.com/uc?export=view&id=1w_bTcbrzWSD6d_HEZQfCVd8Uj5WWxzUJ",
+            "title": "House Price Prediction",
+            "description": "This was a coursework in my third year at Imperial College London. The first part consisted of the construction of a MLP architecture. The second part consisted of building a network using this architecture in order to create a house price regression model.",
+            "url": "https://github.com/calinbiberea/neural_networks"
+        }
+    ]
+}
