@@ -8,10 +8,10 @@
 * a. General Styles
 * b. Navigation
 * c. Header Styles
-* d. About Section
-* e. Portfolio Section
-* f. Contact Section
-* g. Footer
+* d. About Section Styles
+* e. Portfolio Section Styles
+* f. Contact Section Styles
+* g. Footer Styles
 *********************************************************************
 */
 
@@ -72,7 +72,6 @@ ul#nav {
   /*
    * Make the menu stay in the center
    */
-
   text-align: center;
 }
 ul#nav li {
@@ -211,24 +210,26 @@ header .homeSocial li a:hover {
 * Animated Down Arrow
 */
 
-header .scrolldown a {
+header .scrolldown {
    position: absolute;
    bottom: 30px;
    left: 50%;
    margin-left: -29px;
-   color: #fff;
+   color: #efefefef;
    display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #fff;
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
+}
+header .scrolldown i {
+   color: #efefefef
 }
 header .scrolldown i:hover {
    cursor: pointer;
@@ -237,24 +238,87 @@ header .scrolldown i:hover {
 
 /*
 *********************************************************************
-* d. About Section
+* d. About Section Styles
+*********************************************************************
+*/
+
+#about {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+/*
+* Profile Picture
+*/
+#about .profilePictureBody {
+   display: flex;
+   justify-content: center;
+}
+#about .profilePicture {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+}
+
+/*
+*  About Text
+*/
+
+#about .aboutTextBody {
+   padding-right: 5px;
+   padding-top: 10px;
+}
+#about h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#about p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#about .contactDetails{
+   width: 41.66667%;
+}
+
+/*
+*  Resume Link Button
+*/
+
+#about .download {
+   width: 58.33333%;
+}
+#about .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#about .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#about .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+
+/*
+*********************************************************************
+* e. Portfolio Section Styles
 *********************************************************************
 */
 
 /*
 *********************************************************************
-* e. Portfolio Section
+* f. Contact Section Styles
 *********************************************************************
 */
 
 /*
 *********************************************************************
-* f. Contact Section
-*********************************************************************
-*/
-
-/*
-*********************************************************************
-/* g. Footer
+/* g. Footer Styles
 *********************************************************************
 */

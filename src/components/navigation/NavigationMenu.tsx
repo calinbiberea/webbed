@@ -1,8 +1,16 @@
 import $ from "jquery";
 import React, { useEffect, useState } from "react";
+import { useMediaPredicate } from "react-media-hook";
 import { Link } from "react-scroll";
 
 const NavigationMenu: React.FC = () => {
+  /* Mobile navigation handling. */
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuDisplay = menuOpen ? "Show Navigation" : "Hide Navigation";
+
+  /* Parameter to check if the menu on big screens has to be restored. */
+  const menuDisplayCheck = useMediaPredicate("(max-width: 767px)");
+
   /* Colour the navigation bar and fade it out around header scroll. */
   useEffect(() => {
     $(window).on("scroll", () => {
@@ -23,11 +31,19 @@ const NavigationMenu: React.FC = () => {
         navigationBar.addClass("opaque").fadeIn("fast");
       }
     });
-  }, []);
 
-  /* Mobile navigation handling. */
-  const [menuOpen, setMenuOpen] = useState(false);
-  const menuDisplay = menuOpen ? "Show Navigation" : "Hide Navigation";
+    if (menuDisplayCheck) {
+      $("#nav-wrapper > ul#nav").css({
+        display: "none",
+      });
+      setMenuOpen(false);
+    } else {
+      $("#nav-wrapper > ul#nav").css({
+        display: "block",
+      });
+      setMenuOpen(false);
+    }
+  }, [menuDisplayCheck]);
 
   const menuToggle = () => {
     if (menuOpen) {

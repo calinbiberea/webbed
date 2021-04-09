@@ -54,6 +54,20 @@
       width: 65%;
       margin: 12px auto;
    }
+
+   /*
+   * About Section Styles
+   */
+   #about .profilePicture {
+      width: 150px;
+      height: 150px;
+   }
+   #about .contactDetails {
+      width: 50%;
+   }
+   #about .download {
+      width: 50%;
+   }
 }
 
 /*
@@ -147,6 +161,19 @@
 
    header .scrolldown {
       display: none;
+   }
+
+   /*
+   * About Section Styles
+   */
+   #about .profilePicture {
+      width: 125px;
+      height: 125px;
+   }
+   #about .download .button {
+      width: 100%;
+      text-align: center;
+      padding: 15px 20px;
    }
 }
 
