@@ -43,7 +43,7 @@ const About: React.FC = () => {
           <div className="columns download">
             <p>
               <a
-                href="https://drive.google.com/file/d/1yDQQ9WE9T1svwjD-9J5_kj7GYdQpcZ1S/view?usp=sharing.com/"
+                href="https://drive.google.com/file/d/1sEXDBPiaNoWBL-rvbPXcFsVwBEgxfSy7/view?usp=sharing"
                 className="button"
               >
                 <i className="fa fa-download" />
